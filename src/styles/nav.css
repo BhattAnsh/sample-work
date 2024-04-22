@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    justify-content: center;
+    color: white;
+    height: 80px;
+    align-items: center;
+}
+nav .menu-container, nav .menu-buttons-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+nav .dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .logo{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+nav .tsp-btn{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .submit-btn{
+    background-color: rgb(255, 161, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 9px rgb(158, 99, 27);
+}

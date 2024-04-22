@@ -1,0 +1,32 @@
+.main-container{
+    width: 100vw;
+    background-image: url("../tableBg.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.row{
+   display: flex ;
+   flex-direction: row;
+   column-gap: 20px;
+}
+.main-container .box{
+    width: 120px;
+}
+
+.org{
+    color: rgb(255, 161, 43);
+}
+.divider img{
+    width: 100vw;
+}

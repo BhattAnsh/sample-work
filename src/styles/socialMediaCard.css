@@ -1,0 +1,130 @@
+.social-media-container {
+    width: 310px;
+    height: 450px;
+    background-image: url('../card.svg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 67px;
+    row-gap: 20px;
+}
+.transparent .target-container{
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    background-color: #ececec;
+    border: 5px solid rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 7px #6c6c6c;
+}
+.transparent .target-count {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 700;
+}
+.transparent .light{
+    font-size: 18px;
+}
+.transparent .target-text {
+    font-size: 15px;
+    margin: 0;
+    color: #a1a1a1;
+}
+.target-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    background-color: #ececec;
+    border: 5px solid rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 7px #6c6c6c;
+}
+
+.target-count {
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.target-text {
+    font-size: 20px;
+    margin: 0;
+    color: #a1a1a1;
+}
+
+.twitter .twitter-main {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+}
+
+.progress-bar {
+    width: 50% ;
+    height: 8px;
+    background-color: #aaaaaa;
+}
+
+.filled {
+    width: 70% !important;
+    height: 100%;
+    background-color: rgb(255, 161, 43);
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.socialCounts{
+    display: flex;
+    column-gap: 20px;
+    justify-content:center;
+}
+
+.transparent {
+    width: 250px; /* Adjust the width to make it smaller */
+    height: 350px; /* Adjust the height to make it smaller */
+    background-image: url('../card.svg');
+    background-size: 280px; /* Adjust the background size accordingly */
+    background-repeat: no-repeat;
+    padding: 15px; /* Adjust the padding accordingly */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px; /* Adjust the padding-top accordingly */
+    padding-bottom: 57px; /* Adjust the padding-bottom accordingly */
+    row-gap: 15px; /* Adjust the row-gap accordingly */
+    filter: opacity(0.5);
+}
+
+.social-section{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-section .hash{
+    margin-right: 100px;
+}
+

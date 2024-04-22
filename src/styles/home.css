@@ -1,0 +1,134 @@
+body{
+    background: url('../bg.svg') ;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: 0px;
+    width: 100vw;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 600px;
+    align-items:center;
+    justify-content: center;
+}
+.hero-section .heroSub{
+    width: 300px;
+}
+.hero-section .heroHeading{
+    width: 500px;
+}
+.home-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.latest{
+    text-align: center;
+    font-size: 25px;
+}
+.socialCards{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    color: white;
+    font-size: 25px;
+    
+}
+.light{
+    color: rgba(165, 165, 165, 0.603);
+    font-size: 25px;
+}
+.learn-container .h-btn{
+    width: 150px;
+}
+.h-btn{
+    margin-top: 50px;
+    background-color: rgb(255, 161, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px rgb(158, 99, 27);
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+}
+.section-container{
+    margin-top: 200px;
+}
+.section-container img{
+    width: 1700px;
+}
+.learn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lilCard-container{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.partner-container{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.partner-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.cross-chain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
+.chain-img-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 294px;
+    background-image: url('../bottomLogo.svg');
+    height: 275px;
+    margin-bottom:20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    margin-top: 600px;
+}
+.rights{
+    text-align: center;
+    margin-bottom: 500px;
+}
